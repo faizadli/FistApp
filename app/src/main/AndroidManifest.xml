@@ -10,11 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".LatihanActivity" />
-        <activity android:name=".MainLatihan" />
         <activity android:name=".RegisterActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
