@@ -63,4 +63,15 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+    }
 }
+//onStart selalu muncul di awal aktifitas
+//onCreate selalu terbentuk setiap memanggil aktivitas
+//onPause selalu terpanggil untuk memeriksa ada/tidaknya kondisi dirinya ketika aktivitas berganti
+//onResume selalu terpanggil untuk memeriksa ada/tidaknya kondisi onPause
+//onStop hadir ketika onPause tidak diberi kondisi
+//onRestart hadir ketika onResume tidak diberi kondisi
+//onDestroy terpanggil ketika kill task/activity
